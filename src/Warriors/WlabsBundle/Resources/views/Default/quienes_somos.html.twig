@@ -1,0 +1,29 @@
+{% extends '::front.html.twig' %}
+
+{% block body %}
+
+	<div class="heads" style="background: url('{{asset('bundles/app/img/Seccion_Acerca_de_gestion.png') }}') center center;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2> Certificación</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="featured">
+		<div class="container">
+			<div class="row">				
+				<div class="col-md-8 col-sm-8">
+					<div class="heading-title"><h2>Texto</h2></div>
+					<!--<p>Impulsar, fortalecer e incrementar la competitividad de nuestros clientes nacionales e internacionales innovando a través del servicio, desarrollo y comercialización de herramientas empresariales de vanguardia.</p>-->
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<img src="{{asset('bundles/app/img/mision_gestion.png') }}" class="img-responsive img-rounded" alt="dodolan manuk catalog template">
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock body %}

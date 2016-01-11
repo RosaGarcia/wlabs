@@ -1,0 +1,4 @@
+wlabs:
+    resource: "@WlabsBundle/Resources/config/routing.yml"
+    prefix:   /
+

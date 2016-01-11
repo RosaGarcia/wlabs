@@ -1,0 +1,7 @@
+home:
+    path:     /home
+    defaults: { _controller: WlabsBundle:Default:index }
+
+certificacion:
+    path:     /certificacion
+    defaults: { _controller: WlabsBundle:Default:certificacion }
